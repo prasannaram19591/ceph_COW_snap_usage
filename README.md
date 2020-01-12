@@ -1,5 +1,5 @@
 # ceph_COW_snap_usage
-Open source ceph software defined storage users would have come across this problem of finding the total amount of space that is consumed by ceph copy-on-write snapshots alone in their cluster as ther is no direct command to reflect the snapshots usage sats. Here is a way to calculate the complete space occupied by snapshots alone in a ceph cluster. The code will take a complete dump of ceph images across various pools and finds the space occupied for snapshots alone in your complete openstack root partitions as well as extended partitions seperately.
+Open source ceph software defined storage users would have come across this problem of finding the total amount of space that is consumed by ceph copy-on-write snapshots alone in their cluster as ther is no direct command to reflect the snapshots usage stats. Here is a way to calculate the complete space occupied by snapshots alone in a ceph cluster. The code will take a complete dump of ceph images across various pools and finds the space occupied for snapshots alone in your complete openstack root partitions as well as extended partitions seperately.
 
 Pre-requisites
   1. Running Openstack cloud with ceph as cinder backend for storage.
